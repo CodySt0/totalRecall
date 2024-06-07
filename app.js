@@ -84,6 +84,13 @@ for (let i = 10; i < 401; i++) {
   console.log(i);
 }
 
+let x = 9;
+
+while (x < 3999) {
+  x += 3;
+  console.log(x);
+}
+
 //Get Even
 
 //Give Me 5
