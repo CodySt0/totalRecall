@@ -5,6 +5,11 @@
 // let secondVariable = firstVariable;
 // secondVariable = "any string";
 
+firstVariable = "Hello World";
+firstVariable = 1;
+let secondVariable = firstVariable;
+secondVariable = "any string";
+
 // console.log(firstVariable); //1
 
 // const yourName = "Ariel";
