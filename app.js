@@ -11,10 +11,15 @@ let secondVariable = firstVariable;
 secondVariable = "any string";
 
 // console.log(firstVariable); //1
+console.log(firstVariable);
 
 // const yourName = "Ariel";
 // let hello = `Hello, my name is ${yourName}`
 // console.log(hello);
+
+const yourName = "Cody";
+let hello = "Hello, my name is ${yourName}";
+console.log(hello);
 
 //BOOLEANS
 
@@ -24,9 +29,19 @@ secondVariable = "any string";
 // const d = 16;
 // const e = 'Kevin';
 
+const a = 4;
+const b = 54;
+const c = 57;
+const d = 16;
+const e = "Kevin";
+
 // console.log(a < b);
 // console.log(c > d);
 // console.log('Name' == 'Name');
+
+console.log(a < b);
+console.log(c > d);
+console.log("Name" == "Name");
 
 //FOR THE NEXT TWO, USE ONLY && OR ||
 // console.log(true || false);
@@ -35,6 +50,8 @@ secondVariable = "any string";
 // console.log(e == 'Kevin');
 // console.log(a != b != c); // note: a < b < c is NOT CORRECT (and is not a valid JS expression, think about using other math operations)
 // console.log(a == a || d); // note: the answer is a simple arithmetic equation, not something "weird" console.log(48 __ '48');
+
+
 
 //the Farm
 let animal = "cow";
