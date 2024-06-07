@@ -76,6 +76,13 @@ if (age >= 16) {
 //LOOPS
 
 //The Basics
+for (let i = 0; i < 10; i++) {
+  console.log(i);
+}
+
+for (let i = 10; i < 401; i++) {
+  console.log(i);
+}
 
 //Get Even
 
