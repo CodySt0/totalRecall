@@ -18,7 +18,7 @@ console.log(firstVariable);
 // console.log(hello);
 
 const yourName = "Cody";
-let hello = "Hello, my name is ${yourName}";
+let hello = `Hello, my name is ${yourName}`;
 console.log(hello);
 
 //BOOLEANS
@@ -51,13 +51,18 @@ console.log("Name" == "Name");
 // console.log(a != b != c); // note: a < b < c is NOT CORRECT (and is not a valid JS expression, think about using other math operations)
 // console.log(a == a || d); // note: the answer is a simple arithmetic equation, not something "weird" console.log(48 __ '48');
 
-
+console.log(true || false);
+console.log(false && false && false && false && false) || true;
+console.log(false === false);
+console.log(e == "Kevin");
+console.log((a != b) != c);
+console.log(a == a || d);
 
 //the Farm
 let animal = "cow";
 
 const moo = (a) => {
-  return a.toLowerCase === "cow" ? "mooooo" : "hey, that's not a cow";
+  return a.toLowerCase() === "cow" ? "mooooo" : "hey, that's not a cow";
 };
 
 console.log(moo(animal));
