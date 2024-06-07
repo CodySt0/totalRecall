@@ -62,7 +62,7 @@ console.log(a == a || d);
 let animal = "cow";
 
 const moo = (a) => {
-  return a.toLowerCase() === "cow" ? "mooooo" : "hey, that's not a cow";
+  return a.toLowerCase() === "cow" ? "mooooo" : "Hey! You're not a cow";
 };
 
 console.log(moo(animal));
